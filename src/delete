@@ -1,0 +1,33 @@
+  <!-- {/* <div className="artist-table">
+            <div className="artist-flex">
+              <h4>Artists</h4>
+              <div className="artist-flex-1">
+                <h4>Volume</h4>
+                <h4>Floor Price</h4>
+                <h4>Sales</h4>
+              </div>
+            </div>
+            {allUser.map((artist, i) => (
+              <div className="artist-table-1">
+                {i + 1}
+                <div className="artist-table-2">
+                  <div className="artist-flex-2">
+                    <img style={{ width: '58px', height: '58px', padding: '10px 0 10px 12px' }} src={artist.profilePhoto} alt="justlogo" />
+                    <div className="artist-table-sub-1-2-1">
+                      <h5>{artist.userid}</h5>
+                      <h5>@{artist.name}</h5>
+                    </div>
+                  </div>
+                  <div className="artist-table-3">
+                    <div className="artist-table-sub-1">
+                      <div className="artist-table-sub-1-2">
+                        <h5>{artist.volume}</h5>
+                        <h5>{artist.Floor}</h5>
+                        <h5>{artist.sale}</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div> */} -->
