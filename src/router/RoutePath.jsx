@@ -8,7 +8,7 @@ function RoutePath() {
     <div>
       <BrowserRouter>      
           <Routes>
-            <Route path='/' index element={<Home />} />
+            <Route path='/react-second-webpage' index element={<Home />} />
           </Routes>
       </BrowserRouter>
     </div>

@@ -114,6 +114,132 @@ body {
 }
 
 /* navbar */
+
+/* Carousel Slider Container */
+.carousel-slider {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Carousel Item */
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+/* Background Image */
+.background-image {
+    width: 593px;
+    height: 511px;
+    border-radius: 28px;
+    object-fit: cover;
+    position: relative;
+}
+
+.content {
+    background: linear-gradient(1deg, #000 -12.16%, rgba(107, 107, 107, 0.47) 45.09%, rgba(217, 217, 217, 0.00) 95.63%);
+    width: 593px;
+    height: 511px;
+    border-radius: 28px !important;
+    display: flex;
+    gap: 150px;
+    position: absolute;
+    top: 0;
+
+}
+
+/* Profile Section */
+.profile {
+    position: absolute;
+    top: 297px;
+    left: 25px;
+}
+
+.profile img {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    padding-bottom: 19px;
+}
+.user-card {
+    margin-right: 20px; 
+  }
+  
+.profile h1 {
+    color: #FFF;
+    margin: 0 0 20px 0;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.profile p {
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile-info p {
+    color: #FFF;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Collection Section */
+.collection {
+    display: grid;
+    gap: 20px;
+    position: absolute;
+    top: 17px;
+    right: 2px;
+}
+
+.collection img {
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+    object-fit: cover;
+    margin-right: 16px;
+}
+
+.view-collection-button {
+    display: flex;
+    width: 181px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 44px;
+    background: var(--secondary-hue, rgba(52, 52, 52, 0.60));
+    color: var(--white, #FFF);
+    margin: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.view-collection-button:hover {
+    border-radius: 44px;
+    background: var(--white, #FFF);
+    color: #C71585;
+}
+
 /* home */
 .profile-photo {
     position: absolute;
@@ -182,9 +308,9 @@ body {
     display: flex;
 }
 
-.carosel {
+/* .carosel {
     display: grid;
-}
+} */
 
 .button-adjust button {
     padding: 12px 24px;
@@ -641,11 +767,13 @@ body {
     line-height: normal;
     text-decoration-line: underline;
 }
-.nft-2023{
+
+.nft-2023 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nft-2023 h2 {
     color: #FFF;
     margin: 0;

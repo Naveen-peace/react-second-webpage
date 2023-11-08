@@ -9,7 +9,7 @@ import X from '../../asset/image/X.svg'
 import remover from '../../asset/image/remover.svg'
 import youtube from '../../asset/image/youtube.svg'
 
-// import CaroselSlider from '../carosel/CaroselSlider'
+import CaroselSlider from '../carosel/CaroselSlider'
 
 
 
@@ -72,34 +72,7 @@ function Home() {
   return (
     <div>
       <Header />
-      {/* <CaroselSlider/> */}
-      <section>
-        <div className="container">
-          <div className="carosel">
-            {allUser.map((user, i) => (
-              <div className='lemano-carosel' key={user.id} >
-                <img style={{ width: '593px', height: '511px', borderRadius: '28px' }} className='background-img-one' src={user.background} alt='justimage' />
-                <div className="background-add">
-                  <div className='profile-photo'>
-                    <img src={user.profilePhoto} alt={'profilePhoto'} />
-                    <h1>{user.userid} {user.verify}</h1>
-                    <p>By {user.name}</p>
-                    <div className='profile-photo-1'>
-                      <h6>{user.items} items | {user.price}</h6>
-                    </div>
-                  </div>
-                  <div className='button-adjust'>
-                    <img style={{ width: '181px', height: '190px', borderRadius: '14px' }} src={user.viewCollection[1].collection2} alt="justimage" />
-                    <img style={{ width: '181px', height: '190px', borderRadius: '14px' }} src={user.viewCollection[0].collection1} alt="justimage" />
-                    <button >viewCollection</button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/* caroselslider */}
+      <CaroselSlider/>
       {/* all artist */}
       <section>
         <div className="container">
