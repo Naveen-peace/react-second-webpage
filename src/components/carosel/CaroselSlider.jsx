@@ -83,12 +83,13 @@ import allUser from '../../data/UserData';
 
 const CaroselSlider = () => {
   const [index, setIndex] = useState(0);
+  console.log(index);
 
   const handleChange = (newIndex) => {
     setIndex(newIndex);
   };
-  const cardsToShow = 2; // Number of cards to show at a time
-  const slidePercentage = 100 / Math.min(cardsToShow, allUser.length);
+  const cardsToShow = 2; 
+  const slidePercentage = 100 / Math.max(cardsToShow, allUser.length);
 
   return (
     <div className="container">

@@ -215,7 +215,7 @@ function Home() {
           </div>
 
           <div className="artist-table">
-            <Table sx={{ minWidth: 650 }} aria-label="caption table">
+            <Table sx={{ minWidth: 650 }} aria-label="caption table" className='new-table'>
               <TableHead className="artist-flex">
                 <TableRow className='line-eraiser'>
                   <TableCell className="artist-flex-1-1" align='' >Artists</TableCell>

@@ -3,6 +3,9 @@ import '../../asset/css/Style.css'
 import profile from '../../asset/image/nav-bar-profile.png'
 // import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import MenuIcon from '@mui/icons-material/Menu';
+
+
 
 
 function Header() {
@@ -24,6 +27,7 @@ function Header() {
                                 <button className='nav-btn-2'><ShoppingCartOutlinedIcon /></button>
                             </div>
                         </div>
+                        <button className='menu'><MenuIcon/></button>
                     </div>
                 </div>
             </nav>

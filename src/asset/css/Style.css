@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("./Responsive.css");
 
 body {
     margin: 0;
@@ -50,7 +51,9 @@ body {
     align-items: center;
     gap: 10px;
 }
-
+.menu{
+    display: none;
+}
 .nav-bar-sub2 input {
     border-radius: 26px;
     border: 2px solid #000;
@@ -131,10 +134,13 @@ body {
 
 /* Background Image */
 .background-image {
-    width: 593px;
-    height: 511px;
-    border-radius: 28px;
-    object-fit: cover;
+    .background-image {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%; /* Adjust this value based on your design needs */
+        border-radius: 28px;
+      }
     position: relative;
 }
 
@@ -153,7 +159,7 @@ body {
 /* Profile Section */
 .profile {
     position: absolute;
-    top: 297px;
+    top: 280px;
     left: 25px;
 }
 

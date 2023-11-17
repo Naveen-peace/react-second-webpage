@@ -1,0 +1,317 @@
+@media only screen and (min-width: 1200px) {
+  .all-artist {
+    padding: 84px 0 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .all-artist {
+    padding: 84px 0 24px 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .all-artist {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .all-artist-two {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .all-artist {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 0 20px auto;
+  }
+
+  .all-artist {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .all-artist-two {
+    display: grid;
+  }
+
+  .background-image {
+    width: 420px !important;
+    height: 300px !important;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: co;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .content {
+    width: 355px !important;
+    height: 300px !important;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .collection img {
+    width: 110px !important;
+    height: 110px !important;
+    max-width: 100%;
+    max-height: 100%;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .view-collection-button {
+    width: 100px;
+    font-size: 10px;
+    padding: 8px;
+    max-width: 100%;
+    max-height: 100%;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .collection {
+    gap: 10px;
+  }
+
+  .profile {
+    top: 120px !important;
+  }
+
+  .profile h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .profile p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .background-img-one {
+    width: 420px !important;
+    height: 300px !important;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .background-add {
+    width: 370px !important;
+    height: 300px !important;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .button-adjust img {
+    width: 110px !important;
+    height: 110px !important;
+    max-width: 100%;
+    max-height: 100%;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .button-adjust button {
+    width: 100px;
+    font-size: 10px;
+    padding: 8px;
+    max-width: 100%;
+    max-height: 100%;
+    /* Adjust this value based on your design needs */
+    border-radius: 28px;
+  }
+
+  .profile-photo {
+    top: 130px;
+  }
+
+  .profile-photo h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .profile-photo p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .profile-photo h6 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .button-adjust {
+    gap: 10px;
+  }
+
+  .top-collective {
+    display: grid;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .top-collective h1 {
+    font-size: 34px;
+  }
+  .top-artist h1{
+    font-size: 35px;
+    padding: 60px 0 30px 0;
+  }
+
+  .community {
+    text-align: center;
+  }
+
+  .first-community {
+    margin-top: 50px;
+    /* Adjust as needed */
+  }
+
+  .community h2 {
+    padding: 40px 0 20px 0;
+    font-size: 24px;
+  }
+
+  .community h4 {
+    padding: 0 0 30px 0;
+    font-size: 18px;
+  }
+
+  .community-1 input {
+    width: 100%;
+  }
+
+  .community-1 button {
+    margin-left: 0;
+  }
+
+  .community-2 {
+    padding: 10px 0 20px 0;
+  }
+
+  .Graphitron-1 {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    padding: 59px 0;
+  }
+
+  .Graphitron-2 h2 {
+    padding-bottom: 10px;
+    font-size: 28px;
+  }
+
+  .Graphitron-2 h5 {
+    font-size: 18px;
+  }
+
+  .Graphitron-3 h4,
+  .Graphitron-3 h6,
+  .Graphitron-3 h5,
+  .Graphitron-4 h2,
+  .Graphitron-4 h5 {
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+
+  .Graphitron-3 {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .nft-2023 h2 {
+    padding: 15px 0 20px 0;
+    font-size: 18px;
+  }
+
+  .nft-2023 {
+    display: grid;
+    text-align: center;
+  }
+
+  .nav-bar-sub2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-bar-2-1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .nav-bar-2{
+    display: none;
+  }
+  .nav-bar-1 h2 {
+    font-size: 24px;
+  }
+
+  .nav-btn-1,
+  .nav-btn-2 {
+    width: auto;
+  }
+  .menu{
+    display: unset;
+    border: 1px solid var(--Blue, #0D3B66);
+    color: var(--Blue, #0D3B66);
+    border-radius: 5px;
+  }
+  .menu:hover{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #C71585;
+    color: #fff;
+  }
+
+  .new-table.MuiTable-root{
+    overflow: scroll;
+    width: 370px !important;
+    height: 300px !important;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .css-quj9j6-MuiTable-root{
+    min-width: 380px !important;
+  }
+  .artist-flex-2.MuiTableCell-root {
+    display: grid !important;
+    gap: 0px;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  .new-table img{
+    padding-bottom: 0 !important;
+  }
+  .new-table td{
+    text-align: center;
+  }
+}

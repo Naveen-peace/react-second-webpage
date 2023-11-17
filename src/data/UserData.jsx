@@ -116,7 +116,7 @@ const allUser = [
         id: 2,
         userid: 'Warrior',
         name: 'roger smith',
-        verify: true,
+        verify: false,
         profilePhoto:warriorLogo
         ,
         volume:'78 ETH',
@@ -179,7 +179,7 @@ const allUser = [
         id: 4,
         userid: 'Hermione',
         name: 'Hermione Granger',
-        verify: true,
+        verify:false,
         profilePhoto:hermioneLogo
         ,
         volume:'78 ETH',
