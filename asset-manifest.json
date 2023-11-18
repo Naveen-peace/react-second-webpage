@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-second-webpage/static/css/main.65800399.css",
+    "main.css": "/react-second-webpage/static/css/main.100952b8.css",
     "main.js": "/react-second-webpage/static/js/main.0b9c06f1.js",
     "static/media/lemano-viewcollection-6.jpg": "/react-second-webpage/static/media/lemano-viewcollection-6.83a3f73e4827efc5e20c.jpg",
     "static/media/lemano-viewcollection-3.jpg": "/react-second-webpage/static/media/lemano-viewcollection-3.fa1a5f2f6e9ac86dc827.jpg",
@@ -67,11 +67,11 @@
     "static/media/remover.svg": "/react-second-webpage/static/media/remover.096b8948d48a5ea58159b8935d5a3bd8.svg",
     "static/media/youtube.svg": "/react-second-webpage/static/media/youtube.cc7abb7684c7f66b16a59712dcef2c7a.svg",
     "index.html": "/react-second-webpage/index.html",
-    "main.65800399.css.map": "/react-second-webpage/static/css/main.65800399.css.map",
+    "main.100952b8.css.map": "/react-second-webpage/static/css/main.100952b8.css.map",
     "main.0b9c06f1.js.map": "/react-second-webpage/static/js/main.0b9c06f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.65800399.css",
+    "static/css/main.100952b8.css",
     "static/js/main.0b9c06f1.js"
   ]
 }
